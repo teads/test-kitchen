@@ -54,3 +54,4 @@ matrix:
         - sudo cat /var/log/squid3/access.log
   allow_failures:
     - rvm: ruby-head
+    - rvm: 2.6.1
